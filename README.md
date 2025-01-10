@@ -44,7 +44,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
    - Set up a Virtual Network with a subnet to host your VMs.
 
 <p>
-<img src="https://i.imgur.com/sGOsLDu.png" height="80%" width="80%" alt="Lab 5"/>
+   
+![AD2](https://github.com/user-attachments/assets/1fb8d7c7-601d-4a02-9da3-2487030d19bb)
+
 </p>
 
 3. **Create the Domain Controller VM (Windows Server 2022)**:
@@ -52,22 +54,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
    - Ensure that the VM is on the Virtual Network created previously.
 
 <p>
-<img src="https://i.imgur.com/GSFyfLy.png" height="80%" width="80%" alt="Lab 5"/>
+   
+![AD3](https://github.com/user-attachments/assets/68b1e89c-682d-40c9-81c0-171b625deaac)
+
 </p>
 
 <p>
-<img src="https://i.imgur.com/VbGeD0p.png" height="80%" width="80%" alt="Lab 5"/>
+   
+
+
 </p>
 
 <p>
-<img src="https://i.imgur.com/J3RywPG.png" height="80%" width="80%" alt="Lab 5"/>
+   
+![AD4](https://github.com/user-attachments/assets/aef7c79e-c120-45cf-bb13-03a27a870342)
 </p>
 
 4. **Set Static Private IP for DC-1**:
    - After the VM is created, navigate to its Network Interface Card (NIC) settings and set the private IP to static.
 
 <p>
-<img src="https://i.imgur.com/cTMJmBT.png" height="80%" width="80%" alt="Lab 5"/>
+   
+![AD5](https://github.com/user-attachments/assets/70dbce2e-e56d-41dc-a619-5f9224f62b32)
+
 </p>
 
 5. **Disable Windows Firewall**:
